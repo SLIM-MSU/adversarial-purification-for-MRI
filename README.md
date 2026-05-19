@@ -21,13 +21,15 @@ conda activate name
 conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
 
 
-Usage Download the dataset can be found from Dropbox: Data avaliable on https://www.dropbox.com/scl/fi/801dxovhbkp2bkl2krz5x/NEW_KSPACE.zip?rlkey=4u3b32f6c4pfujsv3kp7z5bdk&st=hwe9thrv&dl=0
+Usage Download the dataset can be found from: Data avaliable on https://fastmri.med.nyu.edu/
 
 Open and run the adv_purification.py to have the purification result for the initial stage and evaluate the model on image restoration tasks based on the pretrained MoDL model and run th test case result.
 
 The pretraind MoDL is also on the dropbox [https://www.dropbox.com/scl/fi/xnlrcexczb8yr3neshj1b/DIDN_lambda1_3000_images_trained_2.pt?rlkey=icrqens0ltzvtjusxyzuck89s&st=315c00yp&dl=0](https://www.dropbox.com/scl/fi/lflq0fkjn5hjif1y6tdls/DIDN_lambda1_3000_images_trained.pt?rlkey=4e6tv4r5w0a5gxhbmndw5fjcs&st=i4w0j52y&dl=0)
 
 The pretrained diffusion model can also be found in the dropbox link https://www.dropbox.com/s/27gtxkmh2dlkho9/checkpoint_95.pth?dl=0. Please note the pre-trained model was adopted from: https://arxiv.org/pdf/2110.05243
+
+if you want to gain the faster MRI reconstruction purification, we will recommond you to follow DDS https://github.com/hyungjin-chung/DDS .The pretraind diffusion model for DDS can be found in the same github page
 
 
 #### Directory Structure:
